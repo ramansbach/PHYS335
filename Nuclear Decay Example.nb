@@ -1,0 +1,49 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+BoxData[{RowBox[{"N1"," ","="," ","1000"}],"\n",RowBox[
+{"Manipulate","[",RowBox[{RowBox[{"GraphicsRow","[",RowBox[{"{",RowBox[{RowBox[{"Plot","[",RowBox[
+{RowBox[{"N1"," ",RowBox[{"\[ExponentialE]","^",RowBox[{"(",RowBox[{RowBox[{"-","\[Lambda]1"}]," ","t"}],")"}]}]}],",",RowBox[
+{"{",RowBox[{"t",",","0",",","10"}],"}"}]}],"]"}],",",RowBox[{"Plot","[",RowBox[{RowBox[
+{RowBox[{RowBox[{"(",RowBox[{RowBox[{"(",RowBox[{RowBox[{"-","N1"}]," ","\[Lambda]1"}],")"}],"/",RowBox[
+{"(",RowBox[{"\[Lambda]1","-","\[Lambda]2"}],")"}]}],")"}],RowBox[{"\[ExponentialE]","^",RowBox[
+{"(",RowBox[{RowBox[{"-","\[Lambda]1"}]," ","t"}],")"}]}]}],"+",RowBox[{RowBox[{"(",RowBox[
+{RowBox[{"(",RowBox[{"N1"," ","\[Lambda]1"}],")"}],"/",RowBox[{"(",RowBox[{"\[Lambda]1","-","\[Lambda]2"}],")"}]}],")"}],RowBox[
+{"\[ExponentialE]","^",RowBox[{"(",RowBox[{RowBox[{"-","\[Lambda]2"}]," ","t"}],")"}]}]}]}],",",RowBox[
+{"{",RowBox[{"t",",","0",",","10"}],"}"}]}],"]"}],",",RowBox[{"Plot","[",RowBox[{RowBox[
+{"N1","+",RowBox[{RowBox[{"(",RowBox[{RowBox[{"(",RowBox[{"N1"," ","\[Lambda]2"}],")"}],"/",RowBox[
+{"(",RowBox[{"\[Lambda]1","-","\[Lambda]2"}],")"}]}],")"}],RowBox[{"\[ExponentialE]","^",RowBox[
+{"(",RowBox[{RowBox[{"-","\[Lambda]1"}]," ","t"}],")"}]}]}],"-",RowBox[{"N1"," ",RowBox[
+{"(",RowBox[{RowBox[{"(","\[Lambda]1",")"}],"/",RowBox[{"(",RowBox[{"\[Lambda]1","-","\[Lambda]2"}],")"}]}],")"}],RowBox[
+{"\[ExponentialE]","^",RowBox[{"(",RowBox[{RowBox[{"-","\[Lambda]2"}]," ","t"}],")"}]}]}]}],",",RowBox[
+{"{",RowBox[{"t",",","0",",","10"}],"}"}]}],"]"}]}],"}"}],"]"}],",",RowBox[{"{",RowBox[
+{"\[Lambda]1",",",RowBox[{"-","3"}],",","3"}],"}"}],",",RowBox[{"{",RowBox[{"\[Lambda]2",",","0",",","5"}],"}"}]}],"]"}]}],
+"Input",CellLabel -> "In[5]:= ",ExpressionUUID -> "7403bdc0-b20c-4dcf-8a04-90bd27f55350"],Cell[
+BoxData[
+"1000",StandardForm],"Output",CellLabel -> "Out[5]= ",ExpressionUUID -> "cd8c0653-648a-47f9-b65f-fbf94191ba77"],Cell[
+BoxData[
+TagBox[StyleBox[DynamicModuleBox[{Set[\[Lambda]1$$,1.21`],Set[\[Lambda]2$$,1.22`],Set[
+Typeset`show$$,True],Set[Typeset`bookmarkList$$,{}],Set[Typeset`bookmarkMode$$,"Menu"],Typeset`animator$$,Set[
+Typeset`animvar$$,1],Set[Typeset`name$$,"\"untitled\""],Set[Typeset`specs$$,{{Hold[
+\[Lambda]1$$],-3,3},{Hold[\[Lambda]2$$],0,5}}],Set[Typeset`size$$,Automatic],Set[
+Typeset`update$$,0],Set[Typeset`initDone$$,False],Set[Typeset`skipInitDone$$,True]},
+DynamicBox[Manipulate`ManipulateBoxes[1,StandardForm,RuleDelayed["Variables",{Set[
+\[Lambda]1$$,-3],Set[\[Lambda]2$$,0]}],RuleDelayed["ControllerVariables",{}],RuleDelayed[
+"OtherVariables",{Typeset`show$$,Typeset`bookmarkList$$,Typeset`bookmarkMode$$,Typeset`animator$$,Typeset`animvar$$,Typeset`name$$,Typeset`specs$$,Typeset`size$$,Typeset`update$$,Typeset`initDone$$,Typeset`skipInitDone$$}],
+RuleDelayed["Body",GraphicsRow[{Plot[Times[N1,Power[E,Times[Times[-1,\[Lambda]1$$],
+t]]],{t,0,10}],Plot[Plus[Times[Times[Times[Times[-1,N1],\[Lambda]1$$],Power[Plus[
+\[Lambda]1$$,Times[-1,\[Lambda]2$$]],-1]],Power[E,Times[Times[-1,\[Lambda]1$$],t]]],
+Times[Times[Times[N1,\[Lambda]1$$],Power[Plus[\[Lambda]1$$,Times[-1,\[Lambda]2$$]],
+-1]],Power[E,Times[Times[-1,\[Lambda]2$$],t]]]],{t,0,10}],Plot[Plus[N1,Times[Times[
+Times[N1,\[Lambda]2$$],Power[Plus[\[Lambda]1$$,Times[-1,\[Lambda]2$$]],-1]],Power[
+E,Times[Times[-1,\[Lambda]1$$],t]]],Times[-1,Times[N1,Times[\[Lambda]1$$,Power[Plus[
+\[Lambda]1$$,Times[-1,\[Lambda]2$$]],-1]],Power[E,Times[Times[-1,\[Lambda]2$$],t]]]]],
+{t,0,10}]}]],RuleDelayed["Specifications",{{\[Lambda]1$$,-3,3},{\[Lambda]2$$,0,5}}],
+RuleDelayed["Options",{}],RuleDelayed["DefaultOptions",{}]],SingleEvaluation -> True],
+RuleDelayed[DynamicModuleValues,{}],RuleDelayed[Deinitialization,None],RuleDelayed[
+UntrackedVariables,{Typeset`size$$}],SynchronousInitialization -> True,RuleDelayed[
+UnsavedVariables,{Typeset`initDone$$}],RuleDelayed[UndoTrackedVariables,{Typeset`show$$,Typeset`bookmarkMode$$}],
+ExpressionUUID -> "57e11bcc-8893-438f-ad62-090920922639"],"Manipulate",Deployed -> True,
+StripOnInput -> False],Manipulate`InterpretManipulate[1]],StandardForm],"Output",
+CellLabel -> "Out[6]= ",ExpressionUUID -> "0c5f05ac-5d55-4a2f-b806-69789dba9a99"]},
+Open],ExpressionUUID -> "dfc5c9f8-9c54-441a-aa0a-b2fb14f99e98"]},StyleDefinitions -> "Default.nb",
+FrontEndVersion -> "13.2 for Wolfram Cloud 1.64.2 (December 29, 2022)"]
